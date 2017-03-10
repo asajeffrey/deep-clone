@@ -1,0 +1,9 @@
+[package]
+name = "deep_clone"
+version = "0.0.1"
+authors = ["ajeffrey@mozilla.com"]
+
+[lib]
+
+[dependencies]
+deep_clone_derive = { path = "deep-clone-derive" }

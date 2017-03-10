@@ -1,0 +1,12 @@
+[package]
+name = "deep_clone_derive"
+version = "0.0.1"
+authors = ["ajeffrey@mozilla.com"]
+
+[lib]
+path = "lib.rs"
+proc-macro = true
+
+[dependencies]
+syn = "0.10"
+quote = "0.3"
